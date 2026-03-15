@@ -8,5 +8,8 @@
     "preview": "npm --prefix InnSightPMS run preview --",
     "install:app": "npm --prefix InnSightPMS install",
     "postinstall": "npm run install:app"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.99.1"
   }
 }
